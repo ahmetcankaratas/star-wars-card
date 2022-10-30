@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars Product Card</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <div class="holder">
+      <div class="card">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="card-body">
+          <div class="image-holder">
+            <img src="./assets/helmet.png" alt="white-helmet" />
+          </div>
+          <div class="content">
+            <div>
+              <h5 class="item-name">Stoormtrooper Helmet</h5>
+              <h5 class="price">
+                <span class="item-price">$1.299.99</span>
+              </h5>
+              <div class="details">
+                <div class="options">
+                  <b class="item-option-title">Helmet Size</b>
+                  <ul class="options-list">
+                    <li class="option">
+                      <input type="radio" name="size" value="S" id="size-S" checked/>
+                      <label for="size-S">S</label>
+                    </li>
+                    <li class="option">
+                      <input type="radio" name="size" value="M" id="size-M" />
+                      <label for="size-M">M</label>
+                    </li>
+                    <li class="option">
+                      <input type="radio" name="size" value="L" id="size-L" />
+                      <label for="size-L">L</label>
+                    </li>
+                    <li class="opt">
+                      <input type="radio" name="size" value="XL" id="size-XL" />
+                      <label for="size-XL">XL</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="specs">
+                  <div class="progress-bar">
+                    <div class="progress-circle">
+                      <div class="progress-content">
+                        <h6 class="progText">75%</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="progress-rate"><b>Durability <br/>Rate</b></small>
+                </div>
+              </div>
+              <div class="buttons">
+                <button type="button" class="btn-primary">
+                  <b>Add To Cart</b>
+                </button>
+                <button type="button" class="btn-secondary">
+                  <i class="fas fa-heart"></i><span>Add To Wishlist</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrow-left">
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="arrow-right">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
