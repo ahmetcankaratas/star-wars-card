@@ -141,7 +141,7 @@ body {
   justify-self: flex-start;
 }
 
-.content .details .options .item-option-title{
+.content .details .options .item-option-title {
   display: inline-block;
   letter-spacing: 3px;
   font-size: var(--text-sm);
@@ -184,18 +184,22 @@ body {
 
 .content .details .specs .progress-bar .progress-circle {
   position: relative;
-  background: transparent;
-  border: 8px var(--color-red-dark) solid;
-  border-left-color: transparent;
+  background: linear-gradient(
+      270deg,
+      var(--color-red-dark) 50%,
+      transparent 50%
+    ),
+    linear-gradient(0deg, var(--color-red-dark) 50%, transparent 50%);
   width: 8rem;
   height: 8rem;
   border-radius: 100%;
   overflow: hidden;
+  z-index: 0;
 }
 
 .content .details .specs .progress-bar .progress-circle .progress-content {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 95%;
+  height: 95%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -204,16 +208,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: var(--color-black-light);
   color: var(--color-white);
   z-index: 1;
 }
 
-.content .details .specs .progress-rate{
- display: inline-block;
- font-weight: 600;
- line-height: 1rem;
- margin-top: 0.8rem;
- font-size: 0.8rem;
+.content .details .specs .progress-rate {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1rem;
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .content .buttons button {
