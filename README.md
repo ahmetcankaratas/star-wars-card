@@ -2,7 +2,7 @@
 
 This project is built using just HTML5 and CSS3.
 
-LiveURL: 
+LiveURL: https://ahmetcankaratas.github.io/star-wars-product-card/
 
 ## **🔎 Technologies**
 
