@@ -28,7 +28,7 @@ A step by step guide that will tell you how to get the development environment u
 - Clone the repository
 
 ```
-git clone https://github.com/ahmetcankaratas/star-wars-product-card/
+git clone https://github.com/ahmetcankaratas/star-wars-card/
 ```
 
 - open directiory
